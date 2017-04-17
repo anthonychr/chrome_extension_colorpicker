@@ -1,0 +1,20 @@
+{
+	"manifest_version": 2,
+	"name" : "Money Manager",
+	"version" : "1.0",
+	"description" : "This extension trakcs your overall spendings",
+	"icons": {
+
+		"128": "128c.png",
+		"48":"48c.png",
+		"16":"16c.png"
+	},
+	"browser_action":{
+		"default_icon":"16c.png",
+		"default_popup":"popup.html"
+	},
+
+		"permissions": [
+			"storage"
+		]	
+}
